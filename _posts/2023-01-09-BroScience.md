@@ -419,11 +419,11 @@ broscience-> \d
  public | users_id_seq     | sequence | postgres
  
  broscience=> SELECT * FROM users;
- administrator:15657792073e8a843d4f91fc403454e1
- bill:13edad4932da9dbb57d9cd15b66ed104
- michael:bd3dad50e2d578ecba87d5fa15ca5f85
- john:a7eed23a7be6fe0d765197b1027453fe
- dmytro:5d15340bded5b9395d5d14b9c21bc82b
+ administrator:CENSORED
+ bill:CENSORED
+ michael:CENSORED
+ john:CENSORED
+ dmytro:CENSORED
 ```
 
 ### Cracking Hashes
@@ -438,12 +438,12 @@ Cracking md5 hashes
 
 ```bash
 hashcat -m 0 -a 0 -o cracked.txt hashes.txt ./rockyou.txt --username
-13edad4932da9dbb57d9cd15b66ed104:CENSORED (bill)
-5d15340bded5b9395d5d14b9c21bc82b:CENSORED (dmytro)
-bd3dad50e2d578ecba87d5fa15ca5f85:CENSORED (michael)
+13eCENSORED6ed104:CENSORED (bill)
+5dCENSOREDb9cc82b:CENSORED (dmytro)
+bd350eCENSORED585:CENSORED (michael)
 ```
 
-Using the password **iluvhorsesandgym** we are able to become user **bill**
+Using the password **ilCENSORDgym** we are able to become user **bill**
 
 # Privilege Escalation
 
