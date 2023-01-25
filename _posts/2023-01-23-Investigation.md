@@ -1,6 +1,6 @@
 ---
 title: Investigation 
-date: 2023-12-23 12:00:00
+date: 2023-01-23 12:00:00
 categories: [HTB,CTF]
 tags: [htb]
 ---
