@@ -109,7 +109,7 @@ After we received our shell it's time to enumerate the systmen as we are just th
 ### Linpeas
 
 Linpeas will show us a cronjob that runs regularly at a specific time and uses a script located at **/usr/local/investigation**.  
-Inside that folder we will find an E-Mail that contians a **Windows Security Log**.
+Inside that folder we will find an E-Mail that contains a **Windows Security Log**.
 
 **Cronjob**
 
